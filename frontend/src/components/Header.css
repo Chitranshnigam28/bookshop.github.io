@@ -1,0 +1,22 @@
+.navbar-nav a{
+    align-items: center;
+    justify-content: center;
+    display: inline;
+    margin: 0 40px;
+    float: right;
+    justify-content:space-evenly;
+}
+.center{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+.login{
+
+    
+    color: brown;
+}
+a{
+    color: black !Important;
+}

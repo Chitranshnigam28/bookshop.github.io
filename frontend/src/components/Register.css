@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@600&display=swap');
+
+.register{
+    margin: 40px 250px;
+    
+}
+.form{
+    padding-top: 60px;
+}
+.signupbtn{
+    padding-top: 30px;
+}
+.registerheading{
+    text-align: center;
+    font-family: 'Bitter', serif;
+}

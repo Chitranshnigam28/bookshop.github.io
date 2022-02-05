@@ -1,0 +1,10 @@
+.container{
+    display: grid;
+    
+    justify-content: center;
+    gap: 2rem;
+    
+}
+.main-heading{
+    text-align: center;
+}
