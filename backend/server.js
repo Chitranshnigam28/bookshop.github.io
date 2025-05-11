@@ -1,3 +1,4 @@
+import 'dotenv/config'
 import express from "express";
 import mongoose from "mongoose";
 import Cors from "cors";
@@ -7,7 +8,8 @@ import Register from "./register.js";
 const app=express();
 const port=process.env.PORT||8000;
 
-const connection_url='mongodb+srv://chitransh:chitransh28@cluster0.zadio.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+const connection_url=process.env.MONGODB_CONNECTION_URL;
+
 
 mongoose.connect(connection_url,{
     useNewUrlParser:true,
@@ -16,7 +18,7 @@ mongoose.connect(connection_url,{
 }).then(()=>{
     console.log("connection sucessfull");
 }).catch((e)=>{
-    console.log("Connection Failed");
+    console.log("Connection Failed "+e);
 });
 
 app.use(express.json());

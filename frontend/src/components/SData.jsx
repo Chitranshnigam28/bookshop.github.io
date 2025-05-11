@@ -6,7 +6,7 @@ const SData=[
     },{
         id:new Date().getTime(),
         name:"Think and Grow Rich",
-        img:"https://kbimages1-a.akamaihd.net/c2cddc29-ddd4-41d7-bb02-c89981b7c652/1200/1200/False/think-and-grow-rich-1937-original-masterpiece-by-napoleon-hill-2015-02-05.jpg",
+        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTtdt-wkDTbt0VFKhO_VhwKMwMDtkezsQp9g&s",
         category:"Award",
 
     },{
